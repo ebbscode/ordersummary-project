@@ -133,6 +133,7 @@ button.cancel {
 @media (min-width: 380px) {
   body{
     hieght:960px;
+  }
   .container {
     height:100%;
     background: hsl(225, 100%, 94%) url(./images/pattern-background-desktop.svg);
