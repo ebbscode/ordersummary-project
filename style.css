@@ -132,7 +132,7 @@ button.cancel {
 }
 @media (min-width: 380px) {
   body{
-    hieght:960px;
+    height:960px;
   }
   .container {
     height:100%;
