@@ -97,7 +97,7 @@
 .change-link a:hover {
   color: hsl(224, 23%, 55%);
 }
-button.Payment {
+.Payment {
   width: 100%;
   height: 40px;
   border-radius: 10px;
@@ -106,11 +106,13 @@ button.Payment {
   outline: none;
   border: none;
   cursor: pointer;
+  padding-top:8px;
+  text-align:center;
 }
 .Payment:hover {
   background: hsl(224, 23%, 55%);
 }
-button a {
+a {
   font-family: "redHatDisplay-med";
   text-decoration: none;
   color: #ffff;
@@ -129,7 +131,10 @@ button.cancel {
   color: hsl(245, 75%, 52%);
 }
 @media (min-width: 380px) {
+  body{
+    hieght:960px;
   .container {
+    height:100%;
     background: hsl(225, 100%, 94%) url(./images/pattern-background-desktop.svg);
     background-position: top;
     background-repeat: no-repeat;
